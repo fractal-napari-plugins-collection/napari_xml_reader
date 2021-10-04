@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 
+
 setup(
-    name='fractal-napari-plugins:xml_reader',
+    name='fractal-napari-plugins-colletion:xml_reader',
     version='1.1.0',
     author='Dario Vischi, Marco Franzon, Giuseppe Piero Brandino',
     author_email='dario.vischi@fmi.ch, marco.franzon@exact-lab.it, giuseppe.brandino@exact-lab.it',
@@ -9,7 +10,7 @@ setup(
     package_dir={'': 'src'},
     license='BSD3',
     description=(
-        'Plugins for reading a series of images encoded within an XML files.'
+        'Plugins for reading a series of images enlisted within an XML files.'
     ),
     long_description=open('README.md').read(),
     python_requires='>=3.7',
